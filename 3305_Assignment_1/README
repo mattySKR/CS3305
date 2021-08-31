@@ -1,0 +1,21 @@
+The goals of this assignment are the following:
+
+  • Practice with the fork(), wait() and execl() system functions
+  
+  • Learn how operating systems are structured
+  
+  • Practice C programming language from an OS perspective
+
+  
+The program performs the following tasks:
+  
+  1. Program will create a parent process which will create two child processes (e.g., child_1, and child_2)
+  
+  2. parent will wait for child_1 to complete before creating child_2
+  
+  3. child_1 will create its own child child_1.1
+  
+  4. Inside child_2, a system call to an external program will be made. child_2 will pass its PID to the external
+     program “external_program.out.” As a result of this external program call, child_2 will be replaced by
+     external_program.out (hint: execl()). The path to the external program “external_program.out” will be passed
+     into the program as a command line argument.
