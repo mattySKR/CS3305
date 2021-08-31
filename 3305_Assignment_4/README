@@ -26,7 +26,7 @@ Purpose and goals of this assignment:
       
       Ready queues are simulated in the order of their queue number (q 1, q 2, etc.).
       
-      The “rr” function in the file scheduling.c was implemented. 
+      The “rr” function in the file scheduling.c was implemented. (See comments in the scheduling.c file to see what the function does).
       
-      If necessary, you may implement helper functions in the scheduling.c file to complete the assignment.
+      Helper functions in the scheduling.c file were also created in order to meet the project requirements.
 
