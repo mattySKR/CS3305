@@ -1,1 +1,32 @@
-j
+Purpose and goals of this assignment:
+
+  • Gain more experience with the C programming language from an OS’s CPU scheduling perspective.
+  
+  • Get hands-on experience with the CPU scheduling algorithms.
+  
+  
+-- Performance Evaluation of CPU Scheduling Algorithms --
+
+ In this program I apply CPU Scheduling Algorithms in the C programming language. 
+ A sample input file is provided with skeleton code, which is used to develop the CPU Scheduling Algorithm, Round Robin (RR).
+ 
+  Skeleton Code:
+  
+  The provided skeleton code performs the following:
+  
+    1. Creates the number of ready queues as stated in the input file and assigns a time quantum for each queue.
+    
+    2. Creates all the processes for each of the ready queues based on the input file specifications (such as CPU burst time, arrival order, etc.).
+    
+    3. Once the simulation of all the ready queues is complete, the program will output results to a text file “cpu_scheduling_output_file.txt”.
+    
+  What has been done:
+
+      The CPU scheduling algorithm RR was applied on each ready queue. 
+      
+      Ready queues are simulated in the order of their queue number (q 1, q 2, etc.).
+      
+      The “rr” function in the file scheduling.c was implemented. 
+      
+      If necessary, you may implement helper functions in the scheduling.c file to complete the assignment.
+
