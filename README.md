@@ -1,6 +1,7 @@
 # CS3305
 Operating Systems
 
+
 --- Course Description ---
 
   This course presents fundamental concepts related to the design and implementation of operating
